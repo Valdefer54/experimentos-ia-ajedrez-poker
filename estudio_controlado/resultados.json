@@ -1,0 +1,41 @@
+{
+  "por_funcion": {
+    "rutas": 52,
+    "planificar": 52,
+    "deducir": 52
+  },
+  "condiciones": {
+    "individual": {
+      "aciertos_iniciales": {
+        "rutas": 52,
+        "planificar": 52,
+        "deducir": 52
+      },
+      "aciertos_finales": {
+        "rutas": 52,
+        "planificar": 52,
+        "deducir": 52
+      },
+      "errores_iniciales": {},
+      "errores_finales": {},
+      "regresiones": [],
+      "correcciones": []
+    },
+    "equipo": {
+      "aciertos_iniciales": {
+        "rutas": 52,
+        "planificar": 52,
+        "deducir": 52
+      },
+      "aciertos_finales": {
+        "rutas": 52,
+        "planificar": 52,
+        "deducir": 52
+      },
+      "errores_iniciales": {},
+      "errores_finales": {},
+      "regresiones": [],
+      "correcciones": []
+    }
+  }
+}

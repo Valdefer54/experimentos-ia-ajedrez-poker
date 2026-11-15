@@ -1,0 +1,134 @@
+{
+  "individual": {
+    "turnos": [
+      {
+        "rol": "individual",
+        "inicio_utc": "2026-11-15T19:43:48.259Z",
+        "registro": "rollout-2026-11-15T14-43-48-01a1e0bc-bd75-7a01-8cd6-4ecc355280a5.jsonl",
+        "turno": "01a1e0bc-bdf0-7ef1-b61b-7d1655404d3b",
+        "fin_utc": "2026-11-15T19:44:24.938Z",
+        "eventos_uso": 1,
+        "linea_recibo": 19,
+        "tokens": {
+          "input_tokens": 22549,
+          "cached_input_tokens": 14080,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1318,
+          "reasoning_output_tokens": 471,
+          "total_tokens": 23867
+        }
+      },
+      {
+        "rol": "individual",
+        "inicio_utc": "2026-11-15T19:44:31.603Z",
+        "registro": "rollout-2026-11-15T14-43-48-01a1e0bc-bd75-7a01-8cd6-4ecc355280a5.jsonl",
+        "turno": "01a1e0bd-6765-7343-9af1-57095e26a065",
+        "fin_utc": "2026-11-15T19:44:43.087Z",
+        "eventos_uso": 1,
+        "linea_recibo": 30,
+        "tokens": {
+          "input_tokens": 23996,
+          "cached_input_tokens": 22272,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 410,
+          "reasoning_output_tokens": 173,
+          "total_tokens": 24406
+        }
+      },
+      {
+        "rol": "individual",
+        "inicio_utc": "2026-11-15T19:45:19.482Z",
+        "registro": "rollout-2026-11-15T14-43-48-01a1e0bc-bd75-7a01-8cd6-4ecc355280a5.jsonl",
+        "turno": "01a1e0be-21fa-78f1-a8d9-91b3b655f0a2",
+        "fin_utc": "2026-11-15T19:45:42.838Z",
+        "eventos_uso": 1,
+        "linea_recibo": 41,
+        "tokens": {
+          "input_tokens": 24504,
+          "cached_input_tokens": 23808,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 862,
+          "reasoning_output_tokens": 15,
+          "total_tokens": 25366
+        }
+      }
+    ],
+    "llamadas_observadas": 3,
+    "segundos_activos": 71.519,
+    "segundos_corridos": 114.579,
+    "tokens": {
+      "input_tokens": 71049,
+      "cached_input_tokens": 60160,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2590,
+      "reasoning_output_tokens": 659,
+      "total_tokens": 73639
+    }
+  },
+  "equipo": {
+    "turnos": [
+      {
+        "rol": "proponente",
+        "inicio_utc": "2026-11-15T19:43:59.820Z",
+        "registro": "rollout-2026-11-15T14-43-59-01a1e0bc-eafd-7a33-8b51-29e7e4030c33.jsonl",
+        "turno": "01a1e0bc-eb3b-7681-a447-43d24b741c66",
+        "fin_utc": "2026-11-15T19:44:36.092Z",
+        "eventos_uso": 1,
+        "linea_recibo": 19,
+        "tokens": {
+          "input_tokens": 22555,
+          "cached_input_tokens": 21248,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1249,
+          "reasoning_output_tokens": 516,
+          "total_tokens": 23804
+        }
+      },
+      {
+        "rol": "critico",
+        "inicio_utc": "2026-11-15T19:45:50.359Z",
+        "registro": "rollout-2026-11-15T14-45-50-01a1e0be-9ad0-75f1-8039-e4b61adb0981.jsonl",
+        "turno": "01a1e0be-9b06-7de3-9b50-75d8f6cd0da5",
+        "fin_utc": "2026-11-15T19:46:06.128Z",
+        "eventos_uso": 1,
+        "linea_recibo": 19,
+        "tokens": {
+          "input_tokens": 23226,
+          "cached_input_tokens": 21248,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 471,
+          "reasoning_output_tokens": 250,
+          "total_tokens": 23697
+        }
+      },
+      {
+        "rol": "verificador",
+        "inicio_utc": "2026-11-15T19:46:46.890Z",
+        "registro": "rollout-2026-11-15T14-46-46-01a1e0bf-779c-7972-b0ab-922639d3410f.jsonl",
+        "turno": "01a1e0bf-77d7-72b1-8492-3e9acc9cbc95",
+        "fin_utc": "2026-11-15T19:47:11.722Z",
+        "eventos_uso": 1,
+        "linea_recibo": 21,
+        "tokens": {
+          "input_tokens": 23422,
+          "cached_input_tokens": 21248,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 832,
+          "reasoning_output_tokens": 100,
+          "total_tokens": 24254
+        }
+      }
+    ],
+    "llamadas_observadas": 3,
+    "segundos_activos": 76.873,
+    "segundos_corridos": 191.902,
+    "tokens": {
+      "input_tokens": 69203,
+      "cached_input_tokens": 63744,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2552,
+      "reasoning_output_tokens": 866,
+      "total_tokens": 71755
+    }
+  }
+}

@@ -1,0 +1,606 @@
+{
+  "parent_thread_id": "01a1dc6c-06ec-74f2-9a2b-3a6e9be7bf79",
+  "condition": "superpowers",
+  "agents": [
+    {
+      "agent_path": "/root/poker_sdd_motor",
+      "agent_nickname": "Epicurus",
+      "thread_id": "01a1dc8f-b8c6-7ce3-9b48-d8375deafb6f",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "turns": [
+        {
+          "turn_id": "01a1dc8f-b8ed-76b2-b1e6-7b86ef442366",
+          "work_period": {
+            "started_at_utc": "2026-11-15T00:16:08.956Z",
+            "start_event": "task_started",
+            "start_line_1_based": 2,
+            "completed_at_utc": "2026-11-15T00:28:49.256Z",
+            "duration_ms_elapsed": 760300,
+            "duration_ms_recorded": 760301,
+            "completion_event": "task_complete",
+            "completion_line_1_based": 307
+          },
+          "source": {
+            "turn_context_lines_1_based": [
+              10
+            ],
+            "verified_usage_events": 40,
+            "duplicate_snapshot_lines_1_based": [],
+            "log_filename": "rollout-2026-11-14T19-16-08-01a1dc8f-b8c6-7ce3-9b48-d8375deafb6f.jsonl",
+            "line_1_based": 306,
+            "timestamp_utc": "2026-11-15T00:28:48.604Z"
+          },
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "xhigh",
+          "status": "completed",
+          "token_usage": {
+            "input_tokens": 2860668,
+            "cached_input_tokens": 2777088,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 27699,
+            "reasoning_output_tokens": 10058,
+            "total_tokens": 2888367
+          },
+          "cumulative_token_usage": {
+            "input_tokens": 2860668,
+            "cached_input_tokens": 2777088,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 27699,
+            "reasoning_output_tokens": 10058,
+            "total_tokens": 2888367
+          }
+        },
+        {
+          "turn_id": "01a1e091-5fb7-7fa3-8cde-99e65d3bdb04",
+          "work_period": {
+            "started_at_utc": "2026-11-15T18:56:26.050Z",
+            "start_event": "task_started",
+            "start_line_1_based": 308,
+            "completed_at_utc": "2026-11-15T18:59:04.257Z",
+            "duration_ms_elapsed": 158207,
+            "duration_ms_recorded": 158206,
+            "completion_event": "task_complete",
+            "completion_line_1_based": 414
+          },
+          "source": {
+            "turn_context_lines_1_based": [
+              314
+            ],
+            "verified_usage_events": 14,
+            "duplicate_snapshot_lines_1_based": [],
+            "log_filename": "rollout-2026-11-14T19-16-08-01a1dc8f-b8c6-7ce3-9b48-d8375deafb6f.jsonl",
+            "line_1_based": 413,
+            "timestamp_utc": "2026-11-15T18:59:03.770Z"
+          },
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "xhigh",
+          "status": "completed",
+          "token_usage": {
+            "input_tokens": 1600104,
+            "cached_input_tokens": 1498880,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 5266,
+            "reasoning_output_tokens": 2127,
+            "total_tokens": 1605370
+          },
+          "cumulative_token_usage": {
+            "input_tokens": 4460772,
+            "cached_input_tokens": 4275968,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 32965,
+            "reasoning_output_tokens": 12185,
+            "total_tokens": 4493737
+          }
+        }
+      ],
+      "source": {
+        "log_filename": "rollout-2026-11-14T19-16-08-01a1dc8f-b8c6-7ce3-9b48-d8375deafb6f.jsonl",
+        "line_1_based": 413,
+        "timestamp_utc": "2026-11-15T18:59:03.770Z",
+        "session_meta_line_1_based": 1,
+        "event": "event_msg/token_count",
+        "field": "payload.info.total_token_usage",
+        "verified_usage_events": 54,
+        "ignored_duplicate_snapshot_count": 0
+      },
+      "token_usage": {
+        "input_tokens": 4460772,
+        "cached_input_tokens": 4275968,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 32965,
+        "reasoning_output_tokens": 12185,
+        "total_tokens": 4493737
+      }
+    },
+    {
+      "agent_path": "/root/poker_sdd_revision_motor",
+      "agent_nickname": "Averroes",
+      "thread_id": "01a1dc9b-6733-7592-9018-2aaffddaeef1",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "turns": [
+        {
+          "turn_id": "01a1dc9b-6761-7361-a598-2a7657365232",
+          "work_period": {
+            "started_at_utc": "2026-11-15T00:28:54.514Z",
+            "start_event": "task_started",
+            "start_line_1_based": 2,
+            "completed_at_utc": "2026-11-15T00:31:59.365Z",
+            "duration_ms_elapsed": 184851,
+            "duration_ms_recorded": 184854,
+            "completion_event": "task_complete",
+            "completion_line_1_based": 114
+          },
+          "source": {
+            "turn_context_lines_1_based": [
+              10
+            ],
+            "verified_usage_events": 14,
+            "duplicate_snapshot_lines_1_based": [],
+            "log_filename": "rollout-2026-11-14T19-28-54-01a1dc9b-6733-7592-9018-2aaffddaeef1.jsonl",
+            "line_1_based": 113,
+            "timestamp_utc": "2026-11-15T00:31:58.881Z"
+          },
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "xhigh",
+          "status": "completed",
+          "token_usage": {
+            "input_tokens": 654623,
+            "cached_input_tokens": 611072,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 6361,
+            "reasoning_output_tokens": 4209,
+            "total_tokens": 660984
+          },
+          "cumulative_token_usage": {
+            "input_tokens": 654623,
+            "cached_input_tokens": 611072,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 6361,
+            "reasoning_output_tokens": 4209,
+            "total_tokens": 660984
+          }
+        }
+      ],
+      "source": {
+        "log_filename": "rollout-2026-11-14T19-28-54-01a1dc9b-6733-7592-9018-2aaffddaeef1.jsonl",
+        "line_1_based": 113,
+        "timestamp_utc": "2026-11-15T00:31:58.881Z",
+        "session_meta_line_1_based": 1,
+        "event": "event_msg/token_count",
+        "field": "payload.info.total_token_usage",
+        "verified_usage_events": 14,
+        "ignored_duplicate_snapshot_count": 0
+      },
+      "token_usage": {
+        "input_tokens": 654623,
+        "cached_input_tokens": 611072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6361,
+        "reasoning_output_tokens": 4209,
+        "total_tokens": 660984
+      }
+    },
+    {
+      "agent_path": "/root/poker_sdd_gui",
+      "agent_nickname": "Harvey",
+      "thread_id": "01a1dc9d-abf7-7580-9c48-63ee13aea9d9",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "turns": [
+        {
+          "turn_id": "01a1dc9d-ac19-7453-9e22-cd4e621b0768",
+          "work_period": {
+            "started_at_utc": "2026-11-15T00:31:23.175Z",
+            "start_event": "task_started",
+            "start_line_1_based": 2,
+            "completed_at_utc": "2026-11-15T00:44:57.903Z",
+            "duration_ms_elapsed": 814728,
+            "duration_ms_recorded": 814729,
+            "completion_event": "task_complete",
+            "completion_line_1_based": 391
+          },
+          "source": {
+            "turn_context_lines_1_based": [
+              10
+            ],
+            "verified_usage_events": 56,
+            "duplicate_snapshot_lines_1_based": [],
+            "log_filename": "rollout-2026-11-14T19-31-23-01a1dc9d-abf7-7580-9c48-63ee13aea9d9.jsonl",
+            "line_1_based": 390,
+            "timestamp_utc": "2026-11-15T00:44:57.424Z"
+          },
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "xhigh",
+          "status": "completed",
+          "token_usage": {
+            "input_tokens": 3855271,
+            "cached_input_tokens": 3769728,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 27481,
+            "reasoning_output_tokens": 9440,
+            "total_tokens": 3882752
+          },
+          "cumulative_token_usage": {
+            "input_tokens": 3855271,
+            "cached_input_tokens": 3769728,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 27481,
+            "reasoning_output_tokens": 9440,
+            "total_tokens": 3882752
+          }
+        },
+        {
+          "turn_id": "01a1e08f-1656-7510-9020-bf226a3e2f2f",
+          "work_period": {
+            "started_at_utc": "2026-11-15T18:53:56.192Z",
+            "start_event": "task_started",
+            "start_line_1_based": 392,
+            "completed_at_utc": "2026-11-15T18:57:40.993Z",
+            "duration_ms_elapsed": 224801,
+            "duration_ms_recorded": 224801,
+            "completion_event": "task_complete",
+            "completion_line_1_based": 534
+          },
+          "source": {
+            "turn_context_lines_1_based": [
+              397
+            ],
+            "verified_usage_events": 20,
+            "duplicate_snapshot_lines_1_based": [],
+            "log_filename": "rollout-2026-11-14T19-31-23-01a1dc9d-abf7-7580-9c48-63ee13aea9d9.jsonl",
+            "line_1_based": 533,
+            "timestamp_utc": "2026-11-15T18:57:40.481Z"
+          },
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "xhigh",
+          "status": "completed",
+          "token_usage": {
+            "input_tokens": 2263477,
+            "cached_input_tokens": 2160512,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 6695,
+            "reasoning_output_tokens": 3048,
+            "total_tokens": 2270172
+          },
+          "cumulative_token_usage": {
+            "input_tokens": 6118748,
+            "cached_input_tokens": 5930240,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 34176,
+            "reasoning_output_tokens": 12488,
+            "total_tokens": 6152924
+          }
+        }
+      ],
+      "source": {
+        "log_filename": "rollout-2026-11-14T19-31-23-01a1dc9d-abf7-7580-9c48-63ee13aea9d9.jsonl",
+        "line_1_based": 533,
+        "timestamp_utc": "2026-11-15T18:57:40.481Z",
+        "session_meta_line_1_based": 1,
+        "event": "event_msg/token_count",
+        "field": "payload.info.total_token_usage",
+        "verified_usage_events": 76,
+        "ignored_duplicate_snapshot_count": 0
+      },
+      "token_usage": {
+        "input_tokens": 6118748,
+        "cached_input_tokens": 5930240,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 34176,
+        "reasoning_output_tokens": 12488,
+        "total_tokens": 6152924
+      }
+    },
+    {
+      "agent_path": "/root/poker_sdd_revision_gui",
+      "agent_nickname": "Locke",
+      "thread_id": "01a1dcaa-1bef-7a13-82c9-82fe5559a0e6",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "turns": [
+        {
+          "turn_id": "01a1dcaa-1c20-7f71-b6a4-aa39edd7e026",
+          "work_period": {
+            "started_at_utc": "2026-11-15T00:44:58.294Z",
+            "start_event": "task_started",
+            "start_line_1_based": 2,
+            "completed_at_utc": "2026-11-15T00:45:11.051Z",
+            "duration_ms_elapsed": 12757,
+            "duration_ms_recorded": 12759,
+            "completion_event": "task_complete",
+            "completion_line_1_based": 29
+          },
+          "source": {
+            "turn_context_lines_1_based": [
+              10
+            ],
+            "verified_usage_events": 2,
+            "duplicate_snapshot_lines_1_based": [
+              28
+            ],
+            "log_filename": "rollout-2026-11-14T19-44-58-01a1dcaa-1bef-7a13-82c9-82fe5559a0e6.jsonl",
+            "line_1_based": 27,
+            "timestamp_utc": "2026-11-15T00:45:10.628Z"
+          },
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "xhigh",
+          "status": "failed",
+          "error_code": "usage_limit_exceeded",
+          "token_usage": {
+            "input_tokens": 50572,
+            "cached_input_tokens": 43264,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 317,
+            "reasoning_output_tokens": 0,
+            "total_tokens": 50889
+          },
+          "cumulative_token_usage": {
+            "input_tokens": 50572,
+            "cached_input_tokens": 43264,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 317,
+            "reasoning_output_tokens": 0,
+            "total_tokens": 50889
+          }
+        },
+        {
+          "turn_id": "01a1e08c-fc80-70b2-8e83-5de21b34b731",
+          "work_period": {
+            "started_at_utc": "2026-11-15T18:51:38.519Z",
+            "start_event": "task_started",
+            "start_line_1_based": 30,
+            "completed_at_utc": "2026-11-15T18:53:48.565Z",
+            "duration_ms_elapsed": 130046,
+            "duration_ms_recorded": 130047,
+            "completion_event": "task_complete",
+            "completion_line_1_based": 81
+          },
+          "source": {
+            "turn_context_lines_1_based": [
+              36
+            ],
+            "verified_usage_events": 6,
+            "duplicate_snapshot_lines_1_based": [],
+            "log_filename": "rollout-2026-11-14T19-44-58-01a1dcaa-1bef-7a13-82c9-82fe5559a0e6.jsonl",
+            "line_1_based": 80,
+            "timestamp_utc": "2026-11-15T18:53:48.225Z"
+          },
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "xhigh",
+          "status": "completed",
+          "token_usage": {
+            "input_tokens": 281836,
+            "cached_input_tokens": 230656,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 4327,
+            "reasoning_output_tokens": 1863,
+            "total_tokens": 286163
+          },
+          "cumulative_token_usage": {
+            "input_tokens": 332408,
+            "cached_input_tokens": 273920,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 4644,
+            "reasoning_output_tokens": 1863,
+            "total_tokens": 337052
+          }
+        }
+      ],
+      "source": {
+        "log_filename": "rollout-2026-11-14T19-44-58-01a1dcaa-1bef-7a13-82c9-82fe5559a0e6.jsonl",
+        "line_1_based": 80,
+        "timestamp_utc": "2026-11-15T18:53:48.225Z",
+        "session_meta_line_1_based": 1,
+        "event": "event_msg/token_count",
+        "field": "payload.info.total_token_usage",
+        "verified_usage_events": 8,
+        "ignored_duplicate_snapshot_count": 1
+      },
+      "token_usage": {
+        "input_tokens": 332408,
+        "cached_input_tokens": 273920,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4644,
+        "reasoning_output_tokens": 1863,
+        "total_tokens": 337052
+      }
+    },
+    {
+      "agent_path": "/root/poker_sdd_revision_final",
+      "agent_nickname": "Dewey",
+      "thread_id": "01a1e08d-74e8-7730-9f97-bf17187e6394",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "turns": [
+        {
+          "turn_id": "01a1e08d-751c-72e1-a0fd-9abf248e3db2",
+          "work_period": {
+            "started_at_utc": "2026-11-15T18:52:09.387Z",
+            "start_event": "task_started",
+            "start_line_1_based": 2,
+            "completed_at_utc": "2026-11-15T18:56:17.478Z",
+            "duration_ms_elapsed": 248091,
+            "duration_ms_recorded": 248093,
+            "completion_event": "task_complete",
+            "completion_line_1_based": 134
+          },
+          "source": {
+            "turn_context_lines_1_based": [
+              10
+            ],
+            "verified_usage_events": 14,
+            "duplicate_snapshot_lines_1_based": [],
+            "log_filename": "rollout-2026-11-15T13-52-09-01a1e08d-74e8-7730-9f97-bf17187e6394.jsonl",
+            "line_1_based": 133,
+            "timestamp_utc": "2026-11-15T18:56:17.151Z"
+          },
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "xhigh",
+          "status": "completed",
+          "token_usage": {
+            "input_tokens": 890912,
+            "cached_input_tokens": 776704,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 8405,
+            "reasoning_output_tokens": 4058,
+            "total_tokens": 899317
+          },
+          "cumulative_token_usage": {
+            "input_tokens": 890912,
+            "cached_input_tokens": 776704,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 8405,
+            "reasoning_output_tokens": 4058,
+            "total_tokens": 899317
+          }
+        },
+        {
+          "turn_id": "01a1e093-d2cf-7512-84d5-55084d0b7741",
+          "work_period": {
+            "started_at_utc": "2026-11-15T18:59:06.589Z",
+            "start_event": "task_started",
+            "start_line_1_based": 135,
+            "completed_at_utc": "2026-11-15T19:01:42.211Z",
+            "duration_ms_elapsed": 155622,
+            "duration_ms_recorded": 155619,
+            "completion_event": "task_complete",
+            "completion_line_1_based": 200
+          },
+          "source": {
+            "turn_context_lines_1_based": [
+              138
+            ],
+            "verified_usage_events": 8,
+            "duplicate_snapshot_lines_1_based": [],
+            "log_filename": "rollout-2026-11-15T13-52-09-01a1e08d-74e8-7730-9f97-bf17187e6394.jsonl",
+            "line_1_based": 199,
+            "timestamp_utc": "2026-11-15T19:01:41.687Z"
+          },
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "xhigh",
+          "status": "completed",
+          "token_usage": {
+            "input_tokens": 772124,
+            "cached_input_tokens": 758784,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 4253,
+            "reasoning_output_tokens": 1024,
+            "total_tokens": 776377
+          },
+          "cumulative_token_usage": {
+            "input_tokens": 1663036,
+            "cached_input_tokens": 1535488,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 12658,
+            "reasoning_output_tokens": 5082,
+            "total_tokens": 1675694
+          }
+        }
+      ],
+      "source": {
+        "log_filename": "rollout-2026-11-15T13-52-09-01a1e08d-74e8-7730-9f97-bf17187e6394.jsonl",
+        "line_1_based": 199,
+        "timestamp_utc": "2026-11-15T19:01:41.687Z",
+        "session_meta_line_1_based": 1,
+        "event": "event_msg/token_count",
+        "field": "payload.info.total_token_usage",
+        "verified_usage_events": 22,
+        "ignored_duplicate_snapshot_count": 0
+      },
+      "token_usage": {
+        "input_tokens": 1663036,
+        "cached_input_tokens": 1535488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 12658,
+        "reasoning_output_tokens": 5082,
+        "total_tokens": 1675694
+      }
+    }
+  ],
+  "aggregate": {
+    "agent_count": 5,
+    "turn_count": 9,
+    "verified_usage_events": 174,
+    "ignored_duplicate_snapshot_count": 1,
+    "token_usage": {
+      "input_tokens": 13229587,
+      "cached_input_tokens": 12626688,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 90804,
+      "reasoning_output_tokens": 35827,
+      "total_tokens": 13320391
+    },
+    "work_period": {
+      "start_source": {
+        "log_filename": "rollout-2026-11-14T19-16-08-01a1dc8f-b8c6-7ce3-9b48-d8375deafb6f.jsonl",
+        "line_1_based": 2,
+        "timestamp_utc": "2026-11-15T00:16:08.956Z",
+        "event": "task_started",
+        "turn_id": "01a1dc8f-b8ed-76b2-b1e6-7b86ef442366"
+      },
+      "end_source": {
+        "log_filename": "rollout-2026-11-15T13-52-09-01a1e08d-74e8-7730-9f97-bf17187e6394.jsonl",
+        "line_1_based": 200,
+        "timestamp_utc": "2026-11-15T19:01:42.211Z",
+        "event": "task_complete",
+        "turn_id": "01a1e093-d2cf-7512-84d5-55084d0b7741"
+      },
+      "duration_ms_elapsed": 67533255,
+      "duration_ms_excluding_pause": 2345787,
+      "excluded_pause": {
+        "start_source": {
+          "log_filename": "rollout-2026-11-14T19-44-58-01a1dcaa-1bef-7a13-82c9-82fe5559a0e6.jsonl",
+          "line_1_based": 29,
+          "timestamp_utc": "2026-11-15T00:45:11.051Z",
+          "event": "task_complete",
+          "turn_id": "01a1dcaa-1c20-7f71-b6a4-aa39edd7e026"
+        },
+        "end_source": {
+          "log_filename": "rollout-2026-11-14T19-44-58-01a1dcaa-1bef-7a13-82c9-82fe5559a0e6.jsonl",
+          "line_1_based": 30,
+          "timestamp_utc": "2026-11-15T18:51:38.519Z",
+          "event": "task_started",
+          "turn_id": "01a1e08c-fc80-70b2-8e83-5de21b34b731"
+        },
+        "duration_ms_elapsed": 65187468,
+        "error_code": "usage_limit_exceeded"
+      },
+      "initial_implementation_complete": {
+        "end_source": {
+          "log_filename": "rollout-2026-11-14T19-31-23-01a1dc9d-abf7-7580-9c48-63ee13aea9d9.jsonl",
+          "line_1_based": 391,
+          "timestamp_utc": "2026-11-15T00:44:57.903Z",
+          "event": "task_complete",
+          "turn_id": "01a1dc9d-ac19-7453-9e22-cd4e621b0768"
+        },
+        "duration_ms_elapsed": 1728947
+      },
+      "final_implementation_complete": {
+        "end_source": {
+          "log_filename": "rollout-2026-11-14T19-16-08-01a1dc8f-b8c6-7ce3-9b48-d8375deafb6f.jsonl",
+          "line_1_based": 414,
+          "timestamp_utc": "2026-11-15T18:59:04.257Z",
+          "event": "task_complete",
+          "turn_id": "01a1e091-5fb7-7fa3-8cde-99e65d3bdb04"
+        },
+        "duration_ms_elapsed": 67375301,
+        "duration_ms_excluding_pause": 2187833
+      }
+    }
+  },
+  "method": {
+    "extraction": "Por sesión se tomó el último event_msg/token_count con payload.info.total_token_usage válido al cierre del último turno. Se sumó ese acumulado final una vez por sesión y por campo.",
+    "verification": "Se cotejó cada incremento de los acumulados consecutivos con last_token_usage y con usage de token_usage_record. El acumulado de incrementos por turno coincide con turn_token_usage y el de la sesión con thread_token_usage. Se verificó por turno el modelo y el esfuerzo en turn_context.",
+    "duplicates": "Se descartó la copia del mismo acumulado en la línea 28 de la revisión de interfaz. El acumulado de sesión continúa entre turnos. El total de cada turno es su incremento sobre el acumulado anterior y los 50.889 tokens de la revisión fallida están incluidos en el acumulado final de su sesión.",
+    "field_semantics": "La entrada en caché forma parte de la entrada. El razonamiento forma parte de la salida. Los registros informan cero tokens de escritura en caché. La entrada más la salida coincide con el total.",
+    "duration": "Cada intervalo de turno usa las marcas UTC de task_started y task_complete. El campo duration_ms_recorded conserva la duración declarada por task_complete. El lapso de la condición va desde el primer turno de implementación del motor hasta el cierre de la segunda revisión integral. El lapso ajustado resta solo la pausa explícita por el límite de uso. Ambas mediciones conservan las transiciones habituales y cuentan los solapamientos una sola vez. Los hitos de implementación se basan en el cierre del último turno de implementación de cada ronda.",
+    "coverage": "Dos implementadores y tres revisores del flujo Superpowers de póker. La coordinación, la verificación común, la medición y la redacción quedan fuera."
+  }
+}

@@ -1,0 +1,101 @@
+Verificación de las dos carpetas entregadas
+Fedora 44 · Python 3.14.3 · Tk 9.0.2 · chess 1.11.2 · Xvfb 1280×900×24
+Los dos lanzadores jugar.sh abrieron y renderizaron sus ventanas.
+
+ajedrez_superpowers
+
+Suite propia con pantalla virtual: python -m unittest discover -v
+test_importar_main_no_abre_ventana (test_gui.EntradaTest.test_importar_main_no_abre_ventana) ... ok
+test_boton_reclamar_se_habilita_solo_cuando_corresponde (test_gui.TableroTest.test_boton_reclamar_se_habilita_solo_cuando_corresponde) ... ok
+test_cancelar_coronacion_conserva_el_peon_y_el_turno (test_gui.TableroTest.test_cancelar_coronacion_conserva_el_peon_y_el_turno) ... ok
+test_clic_en_destino_legal_mueve_la_pieza (test_gui.TableroTest.test_clic_en_destino_legal_mueve_la_pieza) ... ok
+test_clic_en_peon_marca_solo_destinos_legales (test_gui.TableroTest.test_clic_en_peon_marca_solo_destinos_legales) ... ok
+test_clic_ilegal_conserva_la_posicion (test_gui.TableroTest.test_clic_ilegal_conserva_la_posicion) ... ok
+test_coronacion_aplica_la_pieza_elegida (test_gui.TableroTest.test_coronacion_aplica_la_pieza_elegida) ... ok
+test_deshacer_mate_restaura_turno_posicion_e_historial (test_gui.TableroTest.test_deshacer_mate_restaura_turno_posicion_e_historial) ... ok
+test_historial_muestra_movimientos_san_agrupados_por_turno (test_gui.TableroTest.test_historial_muestra_movimientos_san_agrupados_por_turno) ... ok
+test_interfaz_aplica_enroque_y_captura_al_paso (test_gui.TableroTest.test_interfaz_aplica_enroque_y_captura_al_paso) ... ok
+test_jugada_actualiza_turno_y_jaque (test_gui.TableroTest.test_jugada_actualiza_turno_y_jaque) ... ok
+test_margenes_y_bordes_exteriores_ignoran_el_clic (test_gui.TableroTest.test_margenes_y_bordes_exteriores_ignoran_el_clic) ... ok
+test_mate_anuncia_ganador (test_gui.TableroTest.test_mate_anuncia_ganador) ... ok
+test_muestra_motivo_de_tablas_automaticas (test_gui.TableroTest.test_muestra_motivo_de_tablas_automaticas) ... ok
+test_nueva_partida_restablece_tablero_historial_y_resultado (test_gui.TableroTest.test_nueva_partida_restablece_tablero_historial_y_resultado) ... ok
+test_quinta_repeticion_muestra_tablas_sin_usar_el_boton (test_gui.TableroTest.test_quinta_repeticion_muestra_tablas_sin_usar_el_boton) ... ok
+test_reclamar_50_jugadas_detiene_el_tablero (test_gui.TableroTest.test_reclamar_50_jugadas_detiene_el_tablero) ... ok
+test_tablas_automaticas_bloquean_los_clics (test_gui.TableroTest.test_tablas_automaticas_bloquean_los_clics) ... ok
+test_tablero_muestra_coordenadas_y_blancas_abajo (test_gui.TableroTest.test_tablero_muestra_coordenadas_y_blancas_abajo) ... ok
+test_captura_al_paso_elimina_el_peon_capturado (test_partida.PartidaTest.test_captura_al_paso_elimina_el_peon_capturado) ... ok
+test_deshace_solo_el_ultimo_medio_movimiento (test_partida.PartidaTest.test_deshace_solo_el_ultimo_medio_movimiento) ... ok
+test_deshacer_mate_restaura_partida_activa (test_partida.PartidaTest.test_deshacer_mate_restaura_partida_activa) ... ok
+test_deshacer_reclamo_con_historial_revierte_el_ultimo_medio_movimiento (test_partida.PartidaTest.test_deshacer_reclamo_con_historial_revierte_el_ultimo_medio_movimiento) ... ok
+test_deshacer_reclamo_sin_historial_abre_la_misma_posicion (test_partida.PartidaTest.test_deshacer_reclamo_sin_historial_abre_la_misma_posicion) ... ok
+test_deshacer_sin_jugadas_devuelve_false (test_partida.PartidaTest.test_deshacer_sin_jugadas_devuelve_false) ... ok
+test_filtra_captura_al_paso_que_deja_al_rey_en_jaque (test_partida.PartidaTest.test_filtra_captura_al_paso_que_deja_al_rey_en_jaque) ... ok
+test_jugada_ilegal_no_modifica_una_partida_activa (test_partida.PartidaTest.test_jugada_ilegal_no_modifica_una_partida_activa) ... ok
+test_lista_solo_jugadas_legales_de_la_casilla_solicitada (test_partida.PartidaTest.test_lista_solo_jugadas_legales_de_la_casilla_solicitada) ... ok
+test_mate_tiene_prioridad_despues_del_medio_movimiento_150 (test_partida.PartidaTest.test_mate_tiene_prioridad_despues_del_medio_movimiento_150) ... ok
+test_no_permite_enroque_a_traves_de_una_casilla_atacada (test_partida.PartidaTest.test_no_permite_enroque_a_traves_de_una_casilla_atacada) ... ok
+test_oculta_jugadas_en_tablas_automaticas (test_partida.PartidaTest.test_oculta_jugadas_en_tablas_automaticas) ... ok
+test_ofrece_ambos_enroques_y_ejecuta_el_elegido (test_partida.PartidaTest.test_ofrece_ambos_enroques_y_ejecuta_el_elegido) ... ok
+test_ofrece_cuatro_promociones_y_ejecuta_la_elegida (test_partida.PartidaTest.test_ofrece_cuatro_promociones_y_ejecuta_la_elegida) ... ok
+test_quinta_repeticion_termina_la_partida_sin_reclamo (test_partida.PartidaTest.test_quinta_repeticion_termina_la_partida_sin_reclamo) ... ok
+test_rechaza_jugada_legal_despues_del_fin_sin_mutaciones (test_partida.PartidaTest.test_rechaza_jugada_legal_despues_del_fin_sin_mutaciones) ... ok
+test_rechaza_reclamos_sin_derecho_o_con_partida_terminada (test_partida.PartidaTest.test_rechaza_reclamos_sin_derecho_o_con_partida_terminada) ... ok
+test_reclama_triple_repeticion_antes_de_ejecutar_la_ultima_jugada (test_partida.PartidaTest.test_reclama_triple_repeticion_antes_de_ejecutar_la_ultima_jugada) ... ok
+test_reclamo_de_cincuenta_jugadas_termina_solo_al_aceptarse (test_partida.PartidaTest.test_reclamo_de_cincuenta_jugadas_termina_solo_al_aceptarse) ... ok
+test_registra_san_en_orden_al_jugar (test_partida.PartidaTest.test_registra_san_en_orden_al_jugar) ... ok
+test_reiniciar_elimina_el_reclamo_vigente (test_partida.PartidaTest.test_reiniciar_elimina_el_reclamo_vigente) ... ok
+test_reiniciar_restaura_posicion_inicial_estandar_desde_fen (test_partida.PartidaTest.test_reiniciar_restaura_posicion_inicial_estandar_desde_fen) ... ok
+test_resultado_automatico_desde_fen (test_partida.PartidaTest.test_resultado_automatico_desde_fen) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 8.341s
+
+OK
+
+Casos de reglas compartidos: evidencia/comprobacion_comun.py
+test_al_paso (__main__.ProtocoloComun.test_al_paso) ... ok
+test_coronacion (__main__.ProtocoloComun.test_coronacion) ... ok
+test_enroque (__main__.ProtocoloComun.test_enroque) ... ok
+test_ilegal_san_y_deshacer (__main__.ProtocoloComun.test_ilegal_san_y_deshacer) ... ok
+test_mate_y_reapertura (__main__.ProtocoloComun.test_mate_y_reapertura) ... ok
+test_reclamos_explicitos_y_bloqueo (__main__.ProtocoloComun.test_reclamos_explicitos_y_bloqueo) ... ok
+test_tablas_automaticas (__main__.ProtocoloComun.test_tablas_automaticas) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.006s
+
+OK
+
+ajedrez_un_subagente
+
+Suite propia con pantalla virtual: python -m unittest discover -v
+test_coronacion_y_cancelacion (test_ajedrez.PruebasInterfaz.test_coronacion_y_cancelacion) ... ok
+test_jaque_reclamacion_bloqueo_y_reinicio (test_ajedrez.PruebasInterfaz.test_jaque_reclamacion_bloqueo_y_reinicio) ... ok
+test_seleccion_clics_ilegales_historial_y_nueva_partida (test_ajedrez.PruebasInterfaz.test_seleccion_clics_ilegales_historial_y_nueva_partida) ... ok
+test_captura_al_paso (test_ajedrez.PruebasPartida.test_captura_al_paso) ... ok
+test_enroque (test_ajedrez.PruebasPartida.test_enroque) ... ok
+test_jugada_ilegal_y_deshacer (test_ajedrez.PruebasPartida.test_jugada_ilegal_y_deshacer) ... ok
+test_mate_bloquea_jugadas_y_deshacer_lo_revierte (test_ajedrez.PruebasPartida.test_mate_bloquea_jugadas_y_deshacer_lo_revierte) ... ok
+test_reclamacion_por_50_jugadas (test_ajedrez.PruebasPartida.test_reclamacion_por_50_jugadas) ... ok
+test_reclamacion_por_triple_repeticion (test_ajedrez.PruebasPartida.test_reclamacion_por_triple_repeticion) ... ok
+test_tablas_automaticas (test_ajedrez.PruebasPartida.test_tablas_automaticas) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.447s
+
+OK
+
+Casos de reglas compartidos: evidencia/comprobacion_comun.py
+test_al_paso (__main__.ProtocoloComun.test_al_paso) ... ok
+test_coronacion (__main__.ProtocoloComun.test_coronacion) ... ok
+test_enroque (__main__.ProtocoloComun.test_enroque) ... ok
+test_ilegal_san_y_deshacer (__main__.ProtocoloComun.test_ilegal_san_y_deshacer) ... ok
+test_mate_y_reapertura (__main__.ProtocoloComun.test_mate_y_reapertura) ... ok
+test_reclamos_explicitos_y_bloqueo (__main__.ProtocoloComun.test_reclamos_explicitos_y_bloqueo) ... ok
+test_tablas_automaticas (__main__.ProtocoloComun.test_tablas_automaticas) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.033s
+
+OK

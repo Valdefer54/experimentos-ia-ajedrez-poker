@@ -1,0 +1,53 @@
+{
+  "parent_thread_id": "01a1dc6c-06ec-74f2-9a2b-3a6e9be7bf79",
+  "agents": [
+    {
+      "agent_path": "/root/ajedrez_solo",
+      "agent_nickname": "Ampere",
+      "thread_id": "01a1dc6d-5bc3-7a63-a6a1-fae28341efd3",
+      "turn_id": "01a1dc6d-5be9-7fc0-ae56-5dd36bbb8ab4",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "work_period": {
+        "started_at_utc": "2026-11-14T23:38:36.922Z",
+        "completed_at_utc": "2026-11-14T23:44:02.051Z",
+        "duration_ms_recorded": 325133,
+        "completion_event": "task_complete",
+        "completion_line_1_based": 100
+      },
+      "source": {
+        "log_filename": "rollout-2026-11-14T18-38-36-01a1dc6d-5bc3-7a63-a6a1-fae28341efd3.jsonl",
+        "event": "event_msg/token_count",
+        "line_1_based": 99,
+        "timestamp_utc": "2026-11-14T23:44:01.600Z",
+        "verified_usage_events": 11
+      },
+      "token_usage": {
+        "input_tokens": 345123,
+        "cached_input_tokens": 305664,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 12084,
+        "reasoning_output_tokens": 4176,
+        "total_tokens": 357207
+      }
+    }
+  ],
+  "aggregate": {
+    "agent_count": 1,
+    "token_usage": {
+      "input_tokens": 345123,
+      "cached_input_tokens": 305664,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 12084,
+      "reasoning_output_tokens": 4176,
+      "total_tokens": 357207
+    }
+  },
+  "method": {
+    "extraction": "Se tomó el último event_msg con payload.type token_count e info.total_token_usage presente. Los valores de total_token_usage son acumulados.",
+    "verification": "En los once eventos, el incremento de cada campo del acumulado coincide con last_token_usage y con token_usage_record. El total calculado como entrada más salida coincide con el total registrado.",
+    "field_semantics": "La entrada en caché forma parte de la entrada. El razonamiento forma parte de la salida. El registro informa cero tokens de escritura en caché.",
+    "coverage": "Único subagente desarrollador del escenario individual. La medición excluye el chat principal, la infraestructura de Codex y los agentes medidores y relator. La entrada incluye el contexto enviado al modelo durante el turno del desarrollador."
+  }
+}

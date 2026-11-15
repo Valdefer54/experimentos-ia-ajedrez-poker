@@ -1,0 +1,253 @@
+{
+  "parent_thread_id": "01a1dc6c-06ec-74f2-9a2b-3a6e9be7bf79",
+  "agents": [
+    {
+      "agent_path": "/root/sdd_reglas",
+      "agent_nickname": "McClintock",
+      "thread_id": "01a1dc6e-8b75-7da1-8bd9-b61376ac4b9e",
+      "turn_id": "01a1dc6e-8b97-7bf2-aea7-81df2c43153f",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "work_period": {
+        "started_at_utc": "2026-11-14T23:39:54.663Z",
+        "completed_at_utc": "2026-11-14T23:48:24.594Z",
+        "duration_ms_recorded": 509933,
+        "start_event": "task_started",
+        "start_line_1_based": 2,
+        "completion_event": "task_complete",
+        "completion_line_1_based": 200
+      },
+      "source": {
+        "log_filename": "rollout-2026-11-14T18-39-54-01a1dc6e-8b75-7da1-8bd9-b61376ac4b9e.jsonl",
+        "event": "event_msg/token_count",
+        "line_1_based": 199,
+        "timestamp_utc": "2026-11-14T23:48:24.141Z",
+        "verified_usage_events": 25,
+        "model_context_line_1_based": 10,
+        "thread_settings_line_1_based": 11,
+        "last_token_usage_record_line_1_based": 198,
+        "last_token_usage_record_timestamp_utc": "2026-11-14T23:48:24.138Z"
+      },
+      "token_usage": {
+        "input_tokens": 1224130,
+        "cached_input_tokens": 1168384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 19066,
+        "reasoning_output_tokens": 4566,
+        "total_tokens": 1243196
+      },
+      "last_token_usage": {
+        "input_tokens": 71204,
+        "cached_input_tokens": 69376,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 203,
+        "reasoning_output_tokens": 36,
+        "total_tokens": 71407
+      }
+    },
+    {
+      "agent_path": "/root/sdd_revision_reglas",
+      "agent_nickname": "Peirce",
+      "thread_id": "01a1dc76-ad85-7bb0-b03e-a8d5cc5ce971",
+      "turn_id": "01a1dc76-ada8-7242-ab54-e6f76d6f3089",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "work_period": {
+        "started_at_utc": "2026-11-14T23:48:47.671Z",
+        "completed_at_utc": "2026-11-14T23:49:34.356Z",
+        "duration_ms_recorded": 46685,
+        "start_event": "task_started",
+        "start_line_1_based": 2,
+        "completion_event": "task_complete",
+        "completion_line_1_based": 43
+      },
+      "source": {
+        "log_filename": "rollout-2026-11-14T18-48-47-01a1dc76-ad85-7bb0-b03e-a8d5cc5ce971.jsonl",
+        "event": "event_msg/token_count",
+        "line_1_based": 42,
+        "timestamp_utc": "2026-11-14T23:49:33.910Z",
+        "verified_usage_events": 4,
+        "model_context_line_1_based": 10,
+        "thread_settings_line_1_based": 11,
+        "last_token_usage_record_line_1_based": 41,
+        "last_token_usage_record_timestamp_utc": "2026-11-14T23:49:33.907Z"
+      },
+      "token_usage": {
+        "input_tokens": 116405,
+        "cached_input_tokens": 103680,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1612,
+        "reasoning_output_tokens": 579,
+        "total_tokens": 118017
+      },
+      "last_token_usage": {
+        "input_tokens": 33223,
+        "cached_input_tokens": 32256,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 423,
+        "reasoning_output_tokens": 120,
+        "total_tokens": 33646
+      }
+    },
+    {
+      "agent_path": "/root/sdd_interfaz",
+      "agent_nickname": "Russell",
+      "thread_id": "01a1dc77-6f8a-7f40-a641-f6adc7185c81",
+      "turn_id": "01a1dc77-6fae-7a92-afee-f18b94b6b065",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "work_period": {
+        "started_at_utc": "2026-11-14T23:49:37.342Z",
+        "completed_at_utc": "2026-11-14T23:58:46.947Z",
+        "duration_ms_recorded": 549607,
+        "start_event": "task_started",
+        "start_line_1_based": 2,
+        "completion_event": "task_complete",
+        "completion_line_1_based": 184
+      },
+      "source": {
+        "log_filename": "rollout-2026-11-14T18-49-37-01a1dc77-6f8a-7f40-a641-f6adc7185c81.jsonl",
+        "event": "event_msg/token_count",
+        "line_1_based": 183,
+        "timestamp_utc": "2026-11-14T23:58:46.483Z",
+        "verified_usage_events": 23,
+        "model_context_line_1_based": 10,
+        "thread_settings_line_1_based": 11,
+        "last_token_usage_record_line_1_based": 182,
+        "last_token_usage_record_timestamp_utc": "2026-11-14T23:58:46.481Z"
+      },
+      "token_usage": {
+        "input_tokens": 1119637,
+        "cached_input_tokens": 1069696,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 19447,
+        "reasoning_output_tokens": 6571,
+        "total_tokens": 1139084
+      },
+      "last_token_usage": {
+        "input_tokens": 66483,
+        "cached_input_tokens": 66176,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 136,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 66619
+      }
+    },
+    {
+      "agent_path": "/root/sdd_revision_interfaz",
+      "agent_nickname": "Goodall",
+      "thread_id": "01a1dc7f-d9b6-7d60-9482-2b3e7cdb7f2f",
+      "turn_id": "01a1dc7f-d9e1-70d2-9c98-58187d6cff6f",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "work_period": {
+        "started_at_utc": "2026-11-14T23:58:48.829Z",
+        "completed_at_utc": "2026-11-15T00:00:39.738Z",
+        "duration_ms_recorded": 110913,
+        "start_event": "task_started",
+        "start_line_1_based": 2,
+        "completion_event": "task_complete",
+        "completion_line_1_based": 52
+      },
+      "source": {
+        "log_filename": "rollout-2026-11-14T18-58-48-01a1dc7f-d9b6-7d60-9482-2b3e7cdb7f2f.jsonl",
+        "event": "event_msg/token_count",
+        "line_1_based": 51,
+        "timestamp_utc": "2026-11-15T00:00:39.283Z",
+        "verified_usage_events": 4,
+        "model_context_line_1_based": 10,
+        "thread_settings_line_1_based": 11,
+        "last_token_usage_record_line_1_based": 50,
+        "last_token_usage_record_timestamp_utc": "2026-11-15T00:00:39.279Z"
+      },
+      "token_usage": {
+        "input_tokens": 119423,
+        "cached_input_tokens": 104448,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4067,
+        "reasoning_output_tokens": 3173,
+        "total_tokens": 123490
+      },
+      "last_token_usage": {
+        "input_tokens": 35777,
+        "cached_input_tokens": 34304,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2442,
+        "reasoning_output_tokens": 1972,
+        "total_tokens": 38219
+      }
+    },
+    {
+      "agent_path": "/root/sdd_revision_final",
+      "agent_nickname": "Jason",
+      "thread_id": "01a1dc80-e198-73d0-92f3-f7e78d3b3dc3",
+      "turn_id": "01a1dc80-e1c6-7410-a779-a14ef04cc8a7",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "work_period": {
+        "started_at_utc": "2026-11-14T23:59:56.373Z",
+        "completed_at_utc": "2026-11-15T00:01:44.579Z",
+        "duration_ms_recorded": 108207,
+        "start_event": "task_started",
+        "start_line_1_based": 2,
+        "completion_event": "task_complete",
+        "completion_line_1_based": 99
+      },
+      "source": {
+        "log_filename": "rollout-2026-11-14T18-59-56-01a1dc80-e198-73d0-92f3-f7e78d3b3dc3.jsonl",
+        "event": "event_msg/token_count",
+        "line_1_based": 98,
+        "timestamp_utc": "2026-11-15T00:01:44.114Z",
+        "verified_usage_events": 12,
+        "model_context_line_1_based": 10,
+        "thread_settings_line_1_based": 11,
+        "last_token_usage_record_line_1_based": 97,
+        "last_token_usage_record_timestamp_utc": "2026-11-15T00:01:44.111Z"
+      },
+      "token_usage": {
+        "input_tokens": 580942,
+        "cached_input_tokens": 541952,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3652,
+        "reasoning_output_tokens": 1483,
+        "total_tokens": 584594
+      },
+      "last_token_usage": {
+        "input_tokens": 57294,
+        "cached_input_tokens": 56832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 644,
+        "reasoning_output_tokens": 385,
+        "total_tokens": 57938
+      }
+    }
+  ],
+  "aggregate": {
+    "agent_count": 5,
+    "work_period": {
+      "started_at_utc": "2026-11-14T23:39:54.663Z",
+      "completed_at_utc": "2026-11-15T00:01:44.579Z"
+    },
+    "verified_usage_events": 68,
+    "token_usage": {
+      "input_tokens": 3160537,
+      "cached_input_tokens": 2988160,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 47844,
+      "reasoning_output_tokens": 16372,
+      "total_tokens": 3208381
+    }
+  },
+  "method": {
+    "extraction": "Se tomó el último event_msg con payload.type token_count e info.total_token_usage presente en el registro de cada subagente. Se sumaron por campo los cinco acumulados finales.",
+    "verification": "Se comprobó el chat padre, la identidad, el inicio y el cierre del turno, el modelo y el esfuerzo de cada subagente. En los 68 eventos, el incremento de cada acumulado coincide con last_token_usage y con usage de token_usage_record. Cada acumulado coincide con turn_token_usage y thread_token_usage. La entrada más la salida coincide con el total en todos los registros y en el agregado.",
+    "field_semantics": "La entrada en caché forma parte de la entrada. El razonamiento forma parte de la salida. Los registros informan cero tokens de escritura en caché.",
+    "coverage": "Dos implementadores y tres revisores del brazo Superpowers. La medición excluye al coordinador, al desarrollador del brazo individual, a los medidores y al relator. La entrada incluye el contexto enviado al modelo durante los turnos medidos.",
+    "anomalies": []
+  }
+}

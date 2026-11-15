@@ -1,0 +1,166 @@
+{
+  "parent_thread_id": "01a1dc6c-06ec-74f2-9a2b-3a6e9be7bf79",
+  "agents": [
+    {
+      "agent_path": "/root/poker_solo",
+      "agent_nickname": "Anscombe",
+      "thread_id": "01a1dc8f-35f0-7132-b6f6-e5092baed529",
+      "turn_id": "01a1dc8f-3652-7091-96d0-bcb2ad01170e",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "xhigh",
+      "work_period": {
+        "started_at_utc": "2026-11-15T00:15:35.520Z",
+        "completed_at_utc": "2026-11-15T19:01:40.448Z",
+        "duration_ms_elapsed": 67564928,
+        "duration_ms_recorded": 1088218,
+        "start_event": "task_started",
+        "start_line_1_based": 2,
+        "completion_event": "task_complete",
+        "completion_line_1_based": 368,
+        "duration_ms_between_turns": 66476712,
+        "duration_ms_adjusted": 1088216
+      },
+      "source": {
+        "log_filename": "rollout-2026-11-14T19-15-35-01a1dc8f-35f0-7132-b6f6-e5092baed529.jsonl",
+        "session_meta_line_1_based": 1,
+        "turn_context_lines_1_based": [
+          10,
+          244
+        ],
+        "event": "event_msg/token_count",
+        "field": "payload.info.total_token_usage",
+        "line_1_based": 367,
+        "timestamp_utc": "2026-11-15T19:01:39.906Z",
+        "token_usage_record_line_1_based": 366,
+        "verified_usage_events": 41,
+        "repeated_snapshot_lines_1_based": [],
+        "token_count_lines_without_usage_1_based": []
+      },
+      "token_usage": {
+        "input_tokens": 3146001,
+        "cached_input_tokens": 2969472,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 38003,
+        "reasoning_output_tokens": 15903,
+        "total_tokens": 3184004
+      },
+      "turns": [
+        {
+          "phase": "inicial",
+          "turn_id": "01a1dc8f-3652-7091-96d0-bcb2ad01170e",
+          "status": "completed",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "xhigh",
+          "work_period": {
+            "started_at_utc": "2026-11-15T00:15:35.520Z",
+            "completed_at_utc": "2026-11-15T00:27:28.148Z",
+            "duration_ms_elapsed": 712628,
+            "duration_ms_recorded": 712630,
+            "start_event": "task_started",
+            "start_line_1_based": 2,
+            "completion_event": "task_complete",
+            "completion_line_1_based": 237
+          },
+          "source": {
+            "log_filename": "rollout-2026-11-14T19-15-35-01a1dc8f-35f0-7132-b6f6-e5092baed529.jsonl",
+            "session_meta_line_1_based": 1,
+            "turn_context_lines_1_based": [
+              10
+            ],
+            "event": "event_msg/token_count",
+            "field": "payload.info.total_token_usage",
+            "line_1_based": 236,
+            "timestamp_utc": "2026-11-15T00:27:27.693Z",
+            "token_usage_record_line_1_based": 235,
+            "verified_usage_events": 28,
+            "repeated_snapshot_lines_1_based": [],
+            "token_count_lines_without_usage_1_based": []
+          },
+          "token_usage": {
+            "input_tokens": 1714249,
+            "cached_input_tokens": 1643008,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 25772,
+            "reasoning_output_tokens": 9033,
+            "total_tokens": 1740021
+          },
+          "thread_token_usage_at_completion": {
+            "input_tokens": 1714249,
+            "cached_input_tokens": 1643008,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 25772,
+            "reasoning_output_tokens": 9033,
+            "total_tokens": 1740021
+          }
+        },
+        {
+          "phase": "corrección",
+          "turn_id": "01a1e090-70b3-7af3-981b-c9c9027a2fed",
+          "status": "completed",
+          "model": "gpt-6.1-sol",
+          "reasoning_effort": "xhigh",
+          "work_period": {
+            "started_at_utc": "2026-11-15T18:55:24.860Z",
+            "completed_at_utc": "2026-11-15T19:01:40.448Z",
+            "duration_ms_elapsed": 375588,
+            "duration_ms_recorded": 375588,
+            "start_event": "task_started",
+            "start_line_1_based": 238,
+            "completion_event": "task_complete",
+            "completion_line_1_based": 368
+          },
+          "source": {
+            "log_filename": "rollout-2026-11-14T19-15-35-01a1dc8f-35f0-7132-b6f6-e5092baed529.jsonl",
+            "session_meta_line_1_based": 1,
+            "turn_context_lines_1_based": [
+              244
+            ],
+            "event": "event_msg/token_count",
+            "field": "payload.info.total_token_usage",
+            "line_1_based": 367,
+            "timestamp_utc": "2026-11-15T19:01:39.906Z",
+            "token_usage_record_line_1_based": 366,
+            "verified_usage_events": 13,
+            "repeated_snapshot_lines_1_based": [],
+            "token_count_lines_without_usage_1_based": []
+          },
+          "token_usage": {
+            "input_tokens": 1431752,
+            "cached_input_tokens": 1326464,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 12231,
+            "reasoning_output_tokens": 6870,
+            "total_tokens": 1443983
+          },
+          "thread_token_usage_at_completion": {
+            "input_tokens": 3146001,
+            "cached_input_tokens": 2969472,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 38003,
+            "reasoning_output_tokens": 15903,
+            "total_tokens": 3184004
+          }
+        }
+      ]
+    }
+  ],
+  "aggregate": {
+    "agent_count": 1,
+    "token_usage": {
+      "input_tokens": 3146001,
+      "cached_input_tokens": 2969472,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 38003,
+      "reasoning_output_tokens": 15903,
+      "total_tokens": 3184004
+    }
+  },
+  "method": {
+    "extraction": "Se usó el último event_msg con payload.type token_count e info.total_token_usage presente de cada turno. El acumulado del segundo turno incluye el del primero. El consumo de la corrección es la diferencia entre ambos acumulados. El consumo total es el último acumulado del chat.",
+    "verification": "En los 41 eventos con incrementos, el incremento de cada campo coincide con last_token_usage y con usage de token_usage_record. El acumulado del chat coincide con thread_token_usage y el incremento desde el inicio de cada turno coincide con turn_token_usage. La suma de entrada y salida coincide con el total en cada incremento y acumulado. Se detectaron 0 registros con acumulado repetido.",
+    "field_semantics": "La entrada en caché forma parte de la entrada. El razonamiento forma parte de la salida. El registro informa cero tokens de escritura en caché.",
+    "duration": "duration_ms_elapsed es la diferencia entre las marcas UTC del inicio y de la finalización. duration_ms_recorded corresponde al valor del payload de task_complete de cada turno y a la suma de esos valores para el escenario completo. duration_ms_adjusted resta del lapso corrido únicamente la pausa entre la finalización del turno inicial y el inicio del segundo turno.",
+    "coverage": "Único subagente desarrollador del escenario individual de póker, con el turno inicial y el de corrección de DPI. La medición excluye al coordinador y a los agentes medidores y analistas. La entrada incluye el contexto enviado al modelo durante los turnos del desarrollador. turn_id en agents conserva el identificador del primer turno."
+  }
+}

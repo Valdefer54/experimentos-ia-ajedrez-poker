@@ -1,0 +1,175 @@
+Verificación de las versiones finales entregadas
+Fedora 44 · Python 3.14.3 · Tk 9.0.2 · PokerKit 0.7.7 · Xvfb 1280×900×24
+Los dos lanzadores jugar.sh abrieron y renderizaron sus ventanas a 96 y 144 DPI.
+
+Condición sdd
+
+Suite propia con pantalla virtual a 96 DPI
+test_destapa_solo_el_turno_y_vuelve_a_tapar_al_pasar_el_equipo (test_gui.TestGui.test_destapa_solo_el_turno_y_vuelve_a_tapar_al_pasar_el_equipo) ... ok
+test_el_showdown_muestra_solo_las_cartas_publicas_y_anuncia_los_premios (test_gui.TestGui.test_el_showdown_muestra_solo_las_cartas_publicas_y_anuncia_los_premios) ... ok
+test_mesa_terminada_deshabilita_siguiente_y_permite_empezar_otra (test_gui.TestGui.test_mesa_terminada_deshabilita_siguiente_y_permite_empezar_otra) ... ok
+test_nueva_mesa_conserva_la_partida_al_cancelar_y_reinicia_al_confirmar (test_gui.TestGui.test_nueva_mesa_conserva_la_partida_al_cancelar_y_reinicia_al_confirmar) ... ok
+test_seis_premios_visibles_al_reducir_la_ventana (test_gui.TestGui.test_seis_premios_visibles_al_reducir_la_ventana) ... ok
+test_siguiente_mano_empieza_con_cartas_tapadas_tras_ganar_por_retiro (test_gui.TestGui.test_siguiente_mano_empieza_con_cartas_tapadas_tras_ganar_por_retiro) ... ok
+test_subir_usa_el_total_y_conserva_el_turno_si_el_importe_no_es_valido (test_gui.TestGui.test_subir_usa_el_total_y_conserva_el_turno_si_el_importe_no_es_valido) ... ok
+test_turno_visible_al_abrir_con_escala_de_144_dpi (test_gui.TestGui.test_turno_visible_al_abrir_con_escala_de_144_dpi) ... ok
+test_acciones_invalidas_son_atomicas (test_mesa.TestMesa.test_acciones_invalidas_son_atomicas) ... ok
+test_all_in_corto_tras_subida_completa_no_reabre (test_mesa.TestMesa.test_all_in_corto_tras_subida_completa_no_reabre) ... ok
+test_all_ins_cortos_reabren_solo_ante_subida_completa_acumulada (test_mesa.TestMesa.test_all_ins_cortos_reabren_solo_ante_subida_completa_acumulada) ... ok
+test_calles_quemas_y_orden_heads_up (test_mesa.TestMesa.test_calles_quemas_y_orden_heads_up) ... ok
+test_ciega_corta_devuelve_exceso_si_queda_un_rival_con_fichas (test_mesa.TestMesa.test_ciega_corta_devuelve_exceso_si_queda_un_rival_con_fichas) ... ok
+test_ciega_corta_mantiene_incremento_nominal_tras_subida (test_mesa.TestMesa.test_ciega_corta_mantiene_incremento_nominal_tras_subida) ... ok
+test_ciega_grande_corta_con_dos_rivales_con_fichas (test_mesa.TestMesa.test_ciega_grande_corta_con_dos_rivales_con_fichas) ... ok
+test_conservacion_en_varias_mesas_con_acciones_legales (test_mesa.TestMesa.test_conservacion_en_varias_mesas_con_acciones_legales) ... ok
+test_eliminacion_recalcula_heads_up_en_la_siguiente_mano (test_mesa.TestMesa.test_eliminacion_recalcula_heads_up_en_la_siguiente_mano) ... ok
+test_empate_en_pozo_principal_y_lateral_da_un_resto_por_pozo (test_mesa.TestMesa.test_empate_en_pozo_principal_y_lateral_da_un_resto_por_pozo) ... ok
+test_inicio_orden_y_privacidad (test_mesa.TestMesa.test_inicio_orden_y_privacidad) ... ok
+test_mesa_puede_terminar_solo_con_ciegas (test_mesa.TestMesa.test_mesa_puede_terminar_solo_con_ciegas) ... ok
+test_pozo_dividido_da_resto_al_primer_ganador_despues_del_boton (test_mesa.TestMesa.test_pozo_dividido_da_resto_al_primer_ganador_despues_del_boton) ... ok
+test_pozo_dividido_entre_tres_reparte_el_resto_de_uno_en_uno (test_mesa.TestMesa.test_pozo_dividido_entre_tres_reparte_el_resto_de_uno_en_uno) ... ok
+test_pozos_laterales_separados_y_devolucion_no_cubierta (test_mesa.TestMesa.test_pozos_laterales_separados_y_devolucion_no_cubierta) ... ok
+test_primer_all_in_corto_no_reabre_la_apuesta (test_mesa.TestMesa.test_primer_all_in_corto_no_reabre_la_apuesta) ... ok
+test_rechaza_pilas_invalidas (test_mesa.TestMesa.test_rechaza_pilas_invalidas) ... ok
+test_retiro_sin_mostrar_cartas_y_rota_el_boton (test_mesa.TestMesa.test_retiro_sin_mostrar_cartas_y_rota_el_boton) ... ok
+test_tercer_all_in_corto_no_vuelve_a_cerrar_la_apuesta (test_mesa.TestMesa.test_tercer_all_in_corto_no_vuelve_a_cerrar_la_apuesta) ... ok
+test_ultima_persona_con_fichas_avanza_si_ya_cubrio_la_apuesta (test_mesa.TestMesa.test_ultima_persona_con_fichas_avanza_si_ya_cubrio_la_apuesta) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 4.409s
+
+OK
+
+Suite propia con pantalla virtual a 144 DPI
+test_destapa_solo_el_turno_y_vuelve_a_tapar_al_pasar_el_equipo (test_gui.TestGui.test_destapa_solo_el_turno_y_vuelve_a_tapar_al_pasar_el_equipo) ... ok
+test_el_showdown_muestra_solo_las_cartas_publicas_y_anuncia_los_premios (test_gui.TestGui.test_el_showdown_muestra_solo_las_cartas_publicas_y_anuncia_los_premios) ... ok
+test_mesa_terminada_deshabilita_siguiente_y_permite_empezar_otra (test_gui.TestGui.test_mesa_terminada_deshabilita_siguiente_y_permite_empezar_otra) ... ok
+test_nueva_mesa_conserva_la_partida_al_cancelar_y_reinicia_al_confirmar (test_gui.TestGui.test_nueva_mesa_conserva_la_partida_al_cancelar_y_reinicia_al_confirmar) ... ok
+test_seis_premios_visibles_al_reducir_la_ventana (test_gui.TestGui.test_seis_premios_visibles_al_reducir_la_ventana) ... ok
+test_siguiente_mano_empieza_con_cartas_tapadas_tras_ganar_por_retiro (test_gui.TestGui.test_siguiente_mano_empieza_con_cartas_tapadas_tras_ganar_por_retiro) ... ok
+test_subir_usa_el_total_y_conserva_el_turno_si_el_importe_no_es_valido (test_gui.TestGui.test_subir_usa_el_total_y_conserva_el_turno_si_el_importe_no_es_valido) ... ok
+test_turno_visible_al_abrir_con_escala_de_144_dpi (test_gui.TestGui.test_turno_visible_al_abrir_con_escala_de_144_dpi) ... ok
+test_acciones_invalidas_son_atomicas (test_mesa.TestMesa.test_acciones_invalidas_son_atomicas) ... ok
+test_all_in_corto_tras_subida_completa_no_reabre (test_mesa.TestMesa.test_all_in_corto_tras_subida_completa_no_reabre) ... ok
+test_all_ins_cortos_reabren_solo_ante_subida_completa_acumulada (test_mesa.TestMesa.test_all_ins_cortos_reabren_solo_ante_subida_completa_acumulada) ... ok
+test_calles_quemas_y_orden_heads_up (test_mesa.TestMesa.test_calles_quemas_y_orden_heads_up) ... ok
+test_ciega_corta_devuelve_exceso_si_queda_un_rival_con_fichas (test_mesa.TestMesa.test_ciega_corta_devuelve_exceso_si_queda_un_rival_con_fichas) ... ok
+test_ciega_corta_mantiene_incremento_nominal_tras_subida (test_mesa.TestMesa.test_ciega_corta_mantiene_incremento_nominal_tras_subida) ... ok
+test_ciega_grande_corta_con_dos_rivales_con_fichas (test_mesa.TestMesa.test_ciega_grande_corta_con_dos_rivales_con_fichas) ... ok
+test_conservacion_en_varias_mesas_con_acciones_legales (test_mesa.TestMesa.test_conservacion_en_varias_mesas_con_acciones_legales) ... ok
+test_eliminacion_recalcula_heads_up_en_la_siguiente_mano (test_mesa.TestMesa.test_eliminacion_recalcula_heads_up_en_la_siguiente_mano) ... ok
+test_empate_en_pozo_principal_y_lateral_da_un_resto_por_pozo (test_mesa.TestMesa.test_empate_en_pozo_principal_y_lateral_da_un_resto_por_pozo) ... ok
+test_inicio_orden_y_privacidad (test_mesa.TestMesa.test_inicio_orden_y_privacidad) ... ok
+test_mesa_puede_terminar_solo_con_ciegas (test_mesa.TestMesa.test_mesa_puede_terminar_solo_con_ciegas) ... ok
+test_pozo_dividido_da_resto_al_primer_ganador_despues_del_boton (test_mesa.TestMesa.test_pozo_dividido_da_resto_al_primer_ganador_despues_del_boton) ... ok
+test_pozo_dividido_entre_tres_reparte_el_resto_de_uno_en_uno (test_mesa.TestMesa.test_pozo_dividido_entre_tres_reparte_el_resto_de_uno_en_uno) ... ok
+test_pozos_laterales_separados_y_devolucion_no_cubierta (test_mesa.TestMesa.test_pozos_laterales_separados_y_devolucion_no_cubierta) ... ok
+test_primer_all_in_corto_no_reabre_la_apuesta (test_mesa.TestMesa.test_primer_all_in_corto_no_reabre_la_apuesta) ... ok
+test_rechaza_pilas_invalidas (test_mesa.TestMesa.test_rechaza_pilas_invalidas) ... ok
+test_retiro_sin_mostrar_cartas_y_rota_el_boton (test_mesa.TestMesa.test_retiro_sin_mostrar_cartas_y_rota_el_boton) ... ok
+test_tercer_all_in_corto_no_vuelve_a_cerrar_la_apuesta (test_mesa.TestMesa.test_tercer_all_in_corto_no_vuelve_a_cerrar_la_apuesta) ... ok
+test_ultima_persona_con_fichas_avanza_si_ya_cubrio_la_apuesta (test_mesa.TestMesa.test_ultima_persona_con_fichas_avanza_si_ya_cubrio_la_apuesta) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 6.538s
+
+OK
+
+Casos compartidos, comprobacion_comun.py
+test_all_in_corto_no_reabre (__main__.HoldemCompartido.test_all_in_corto_no_reabre) ... ok
+test_all_in_y_pozo_lateral (__main__.HoldemCompartido.test_all_in_y_pozo_lateral) ... ok
+test_calles_y_conservacion (__main__.HoldemCompartido.test_calles_y_conservacion) ... ok
+test_ciega_grande_corta_con_varios_jugadores (__main__.HoldemCompartido.test_ciega_grande_corta_con_varios_jugadores) ... ok
+test_dos_all_in_cortos_reabren_si_completan_subida (__main__.HoldemCompartido.test_dos_all_in_cortos_reabren_si_completan_subida) ... ok
+test_dos_pozos_impares_se_dividen_por_separado (__main__.HoldemCompartido.test_dos_pozos_impares_se_dividen_por_separado) ... ok
+test_empate_con_ficha_impar (__main__.HoldemCompartido.test_empate_con_ficha_impar) ... ok
+test_entradas_invalidas_no_mutan (__main__.HoldemCompartido.test_entradas_invalidas_no_mutan) ... ok
+test_heads_up_omite_asientos_vacios (__main__.HoldemCompartido.test_heads_up_omite_asientos_vacios) ... ok
+test_inicial_y_cartas_privadas (__main__.HoldemCompartido.test_inicial_y_cartas_privadas) ... ok
+test_primer_all_in_corto_no_reabre_si_ya_igualo_la_ciega (__main__.HoldemCompartido.test_primer_all_in_corto_no_reabre_si_ya_igualo_la_ciega) ... ok
+test_reapertura_se_calcula_para_cada_jugador (__main__.HoldemCompartido.test_reapertura_se_calcula_para_cada_jugador) ... ok
+test_tercer_all_in_corto_no_anula_reapertura (__main__.HoldemCompartido.test_tercer_all_in_corto_no_anula_reapertura) ... ok
+test_todos_se_retiran_y_rota_el_boton (__main__.HoldemCompartido.test_todos_se_retiran_y_rota_el_boton) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.120s
+
+OK
+
+Simulación reproducible, estres.py
+111 manos terminadas, 472 acciones y conservación de fichas.
+
+Condición solo
+
+Suite propia con pantalla virtual a 96 DPI
+test_entrega_privada_e_importe_invalido (test_poker.InterfazTest.test_entrega_privada_e_importe_invalido) ... ok
+test_fin_siguiente_mano_y_confirmacion_de_reinicio (test_poker.InterfazTest.test_fin_siguiente_mano_y_confirmacion_de_reinicio) ... ok
+test_geometria_muestra_pozo_y_asientos_antes_y_despues_del_showdown (test_poker.InterfazTest.test_geometria_muestra_pozo_y_asientos_antes_y_despues_del_showdown) ... ok
+test_showdown_muestra_cartas_publicas_sin_revelar_turno (test_poker.InterfazTest.test_showdown_muestra_cartas_publicas_sin_revelar_turno) ... ok
+test_calles_turnos_quemas_y_privacidad (test_poker.ReglasTest.test_calles_turnos_quemas_y_privacidad) ... ok
+test_ciega_grande_all_in_corta (test_poker.ReglasTest.test_ciega_grande_all_in_corta) ... ok
+test_empate_con_ficha_impar_y_asientos_excluidos (test_poker.ReglasTest.test_empate_con_ficha_impar_y_asientos_excluidos) ... ok
+test_empate_de_tres_reparte_una_ficha_sobrante_por_persona (test_poker.ReglasTest.test_empate_de_tres_reparte_una_ficha_sobrante_por_persona) ... ok
+test_heads_up_posicion_y_mesa_terminada (test_poker.ReglasTest.test_heads_up_posicion_y_mesa_terminada) ... ok
+test_importar_main_sin_pantalla (test_poker.ReglasTest.test_importar_main_sin_pantalla) ... ok
+test_importes_invalidos_no_cambian_estado (test_poker.ReglasTest.test_importes_invalidos_no_cambian_estado) ... ok
+test_pozos_laterales_y_devolucion_no_cubierta (test_poker.ReglasTest.test_pozos_laterales_y_devolucion_no_cubierta) ... ok
+test_pozos_siguen_separados_si_los_gana_la_misma_persona (test_poker.ReglasTest.test_pozos_siguen_separados_si_los_gana_la_misma_persona) ... ok
+test_reapertura_acumulada_desde_la_ultima_accion_de_cada_jugador (test_poker.ReglasTest.test_reapertura_acumulada_desde_la_ultima_accion_de_cada_jugador) ... ok
+test_reapertura_con_otra_subida_corta_despues_de_reabrir (test_poker.ReglasTest.test_reapertura_con_otra_subida_corta_despues_de_reabrir) ... ok
+test_retiro_y_rotacion_con_asientos_vacios (test_poker.ReglasTest.test_retiro_y_rotacion_con_asientos_vacios) ... ok
+test_short_all_in_tras_pasar (test_poker.ReglasTest.test_short_all_in_tras_pasar) ... ok
+test_showdown_automatico_cuando_solo_queda_un_jugador_con_fichas (test_poker.ReglasTest.test_showdown_automatico_cuando_solo_queda_un_jugador_con_fichas) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 2.746s
+
+OK
+
+Suite propia con pantalla virtual a 144 DPI
+test_entrega_privada_e_importe_invalido (test_poker.InterfazTest.test_entrega_privada_e_importe_invalido) ... ok
+test_fin_siguiente_mano_y_confirmacion_de_reinicio (test_poker.InterfazTest.test_fin_siguiente_mano_y_confirmacion_de_reinicio) ... ok
+test_geometria_muestra_pozo_y_asientos_antes_y_despues_del_showdown (test_poker.InterfazTest.test_geometria_muestra_pozo_y_asientos_antes_y_despues_del_showdown) ... ok
+test_showdown_muestra_cartas_publicas_sin_revelar_turno (test_poker.InterfazTest.test_showdown_muestra_cartas_publicas_sin_revelar_turno) ... ok
+test_calles_turnos_quemas_y_privacidad (test_poker.ReglasTest.test_calles_turnos_quemas_y_privacidad) ... ok
+test_ciega_grande_all_in_corta (test_poker.ReglasTest.test_ciega_grande_all_in_corta) ... ok
+test_empate_con_ficha_impar_y_asientos_excluidos (test_poker.ReglasTest.test_empate_con_ficha_impar_y_asientos_excluidos) ... ok
+test_empate_de_tres_reparte_una_ficha_sobrante_por_persona (test_poker.ReglasTest.test_empate_de_tres_reparte_una_ficha_sobrante_por_persona) ... ok
+test_heads_up_posicion_y_mesa_terminada (test_poker.ReglasTest.test_heads_up_posicion_y_mesa_terminada) ... ok
+test_importar_main_sin_pantalla (test_poker.ReglasTest.test_importar_main_sin_pantalla) ... ok
+test_importes_invalidos_no_cambian_estado (test_poker.ReglasTest.test_importes_invalidos_no_cambian_estado) ... ok
+test_pozos_laterales_y_devolucion_no_cubierta (test_poker.ReglasTest.test_pozos_laterales_y_devolucion_no_cubierta) ... ok
+test_pozos_siguen_separados_si_los_gana_la_misma_persona (test_poker.ReglasTest.test_pozos_siguen_separados_si_los_gana_la_misma_persona) ... ok
+test_reapertura_acumulada_desde_la_ultima_accion_de_cada_jugador (test_poker.ReglasTest.test_reapertura_acumulada_desde_la_ultima_accion_de_cada_jugador) ... ok
+test_reapertura_con_otra_subida_corta_despues_de_reabrir (test_poker.ReglasTest.test_reapertura_con_otra_subida_corta_despues_de_reabrir) ... ok
+test_retiro_y_rotacion_con_asientos_vacios (test_poker.ReglasTest.test_retiro_y_rotacion_con_asientos_vacios) ... ok
+test_short_all_in_tras_pasar (test_poker.ReglasTest.test_short_all_in_tras_pasar) ... ok
+test_showdown_automatico_cuando_solo_queda_un_jugador_con_fichas (test_poker.ReglasTest.test_showdown_automatico_cuando_solo_queda_un_jugador_con_fichas) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 3.361s
+
+OK
+
+Casos compartidos, comprobacion_comun.py
+test_all_in_corto_no_reabre (__main__.HoldemCompartido.test_all_in_corto_no_reabre) ... ok
+test_all_in_y_pozo_lateral (__main__.HoldemCompartido.test_all_in_y_pozo_lateral) ... ok
+test_calles_y_conservacion (__main__.HoldemCompartido.test_calles_y_conservacion) ... ok
+test_ciega_grande_corta_con_varios_jugadores (__main__.HoldemCompartido.test_ciega_grande_corta_con_varios_jugadores) ... ok
+test_dos_all_in_cortos_reabren_si_completan_subida (__main__.HoldemCompartido.test_dos_all_in_cortos_reabren_si_completan_subida) ... ok
+test_dos_pozos_impares_se_dividen_por_separado (__main__.HoldemCompartido.test_dos_pozos_impares_se_dividen_por_separado) ... ok
+test_empate_con_ficha_impar (__main__.HoldemCompartido.test_empate_con_ficha_impar) ... ok
+test_entradas_invalidas_no_mutan (__main__.HoldemCompartido.test_entradas_invalidas_no_mutan) ... ok
+test_heads_up_omite_asientos_vacios (__main__.HoldemCompartido.test_heads_up_omite_asientos_vacios) ... ok
+test_inicial_y_cartas_privadas (__main__.HoldemCompartido.test_inicial_y_cartas_privadas) ... ok
+test_primer_all_in_corto_no_reabre_si_ya_igualo_la_ciega (__main__.HoldemCompartido.test_primer_all_in_corto_no_reabre_si_ya_igualo_la_ciega) ... ok
+test_reapertura_se_calcula_para_cada_jugador (__main__.HoldemCompartido.test_reapertura_se_calcula_para_cada_jugador) ... ok
+test_tercer_all_in_corto_no_anula_reapertura (__main__.HoldemCompartido.test_tercer_all_in_corto_no_anula_reapertura) ... ok
+test_todos_se_retiran_y_rota_el_boton (__main__.HoldemCompartido.test_todos_se_retiran_y_rota_el_boton) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.091s
+
+OK
+
+Simulación reproducible, estres.py
+111 manos terminadas, 472 acciones y conservación de fichas.
